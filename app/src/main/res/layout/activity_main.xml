@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:layout_margin="2dp"
+    android:layout_margin="@dimen/margen_standar"
     app:orientation="vertical"
     app:columnCount="3"
     app:rowCount="3">
@@ -15,7 +15,7 @@
         android:id="@+id/ajax"
         android:src="@drawable/ajax1"
         android:scaleType="fitXY"
-        android:layout_margin="2dp"
+        android:layout_margin="@dimen/margen_standar"
         app:layout_column="0"
         app:layout_row="0"
         app:layout_rowWeight="1"
@@ -29,7 +29,7 @@
         android:src="@drawable/liverpool1"
         app:layout_gravity="fill|top"
         android:scaleType="fitXY"
-        android:layout_margin="2dp"
+        android:layout_margin="@dimen/margen_standar"
         app:layout_row="0"
         app:layout_column="1" />
 
@@ -42,7 +42,7 @@
         android:src="@drawable/totenham1"
         app:layout_gravity="fill|top"
         android:scaleType="fitXY"
-        android:layout_margin="2dp"/>
+        android:layout_margin="@dimen/margen_standar"/>
 
     <ImageView
         android:id="@+id/juventus"
@@ -53,7 +53,7 @@
         android:src="@drawable/juventus1"
         app:layout_gravity="fill|top"
         android:scaleType="fitXY"
-        android:layout_margin="2dp"/>
+        android:layout_margin="@dimen/margen_standar"/>
 
     <ImageView
         android:id="@+id/fcbarcelona"
@@ -64,7 +64,7 @@
         android:src="@drawable/fcbarcelona1"
         app:layout_gravity="fill|top"
         android:scaleType="fitXY"
-        android:layout_margin="2dp"/>
+        android:layout_margin="@dimen/margen_standar"/>
 
     <ImageView
         android:id="@+id/manchesteru"
@@ -75,7 +75,7 @@
         android:src="@drawable/manchesteru1"
         app:layout_gravity="fill|top"
         android:scaleType="fitXY"
-        android:layout_margin="2dp"/>
+        android:layout_margin="@dimen/margen_standar"/>
 
     <ImageView
         android:id="@+id/manchesterc"
@@ -86,7 +86,7 @@
         android:src="@drawable/manchesterc1"
         app:layout_gravity="fill|top"
         android:scaleType="fitXY"
-        android:layout_margin="2dp"/>
+        android:layout_margin="@dimen/margen_standar"/>
 
     <ImageView
         android:id="@+id/oporto"
@@ -97,7 +97,7 @@
         android:src="@drawable/oporto1"
         app:layout_gravity="fill|top"
         android:scaleType="fitXY"
-        android:layout_margin="2dp"/>
+        android:layout_margin="@dimen/margen_standar"/>
 
     <ImageView
         android:id="@+id/trofeo"
@@ -107,5 +107,6 @@
         app:layout_columnWeight="1"
         android:src="@drawable/trofeo1"
         app:layout_gravity="fill|top"
-        android:scaleType="fitXY"/>
+        android:scaleType="fitXY"
+        android:layout_margin="@dimen/margen_standar"/>
 </android.support.v7.widget.GridLayout>
